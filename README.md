@@ -24,6 +24,18 @@ aspecto.
 Pequeño video muestra el funcionamiento de la API duración 6 minutos
 [Ver Video](https://drive.google.com/file/d/1A9hUACneqI45OQOCzGRKlx8ykw_7jxj1/view?usp=sharing) 
 
+## Diagrama de Entidad Relación
+El modelo permite llevar un registro de los ingresos y egresos al parqueo sin depender del pago esto al separar el registro de la facturación. Permitiendo por ejemplo:
+- Registro de las veces que un vehiculo oficial ha ingresado en toda la historia 
+- Filtrar por fechas dichos ingresos
+- Obtener fácilmente los ingresos al adecuar el sistema de facturación
+![D](https://stevenywendy.cia.gt/static/img/diagrama_eer.png)
+
+## Rutas definidas
+En el video no se muestra todos las rutas implementadas ya que se enfocó en los que maneja el empleado por lo que se adjunta la tabla de rutas definidas en la API.
+
+![D](https://stevenywendy.cia.gt/static/img/routes.png)
+
 ## Instalación
 
 El proyecto debe ser descargado o clonado en el presente respositorio [Github](https://github.com/HEMMgt/bluemedical.git).
